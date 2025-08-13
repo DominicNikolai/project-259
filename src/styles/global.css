@@ -73,3 +73,27 @@ body::-webkit-scrollbar-thumb {
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
   }
 }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image:
+    linear-gradient(
+      to right,
+      crimson 10%,
+      orangered,
+      gold,
+      greenyellow,
+      skyblue,
+      steelblue,
+      violet,
+      purple 90%
+    ),
+    linear-gradient(white 50%, black 50%),
+    linear-gradient(90deg, white 50%, black 50%);
+  background-blend-mode: multiply, difference, normal;
+  background-size: 100% 100%, 5em 5em, 5em 5em;
+}
