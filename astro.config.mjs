@@ -7,13 +7,13 @@ export default defineConfig({
     assets: 'static'
   },
   //Deploy normal project
-  // base: '/project-239/',
-  // site: 'https://dominicnikolai.github.io/project-239/'
+  base: '/project-259/',
+  site: 'https://dominicnikolai.github.io/project-259/'
 
   //Deploy 20 Projects
   // base: '/20-projects-with-css/',
   // site: 'https://20essentials.github.io/20-projects-with-css/'
 
   //Localhost
-  site: 'http://localhost:4321/'
+  // site: 'http://localhost:4321/'
 });
